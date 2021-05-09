@@ -13,7 +13,7 @@ const articles = [
   {
     id: 'xys',
     date: new Date('2020-01-05'),
-    title: 'Another title',
+    title: 'To the moon and back',
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.',
     bgColor: '#006699',
   },
@@ -29,21 +29,21 @@ const articles = [
     date: new Date('2019-02-12'),
     title: 'Rise of the planet of the apes',
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\'',
-    bgColor: '#e15d03',
+    bgColor: '#07ab99',
   },
   {
     id: '1a3sdf',
     date: new Date('2020-01-05'),
     title: 'Yes we can',
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.',
-    bgColor: '#006699',
+    bgColor: '#b00b69',
   },
   {
     id: '909jkj',
     date: new Date('2021-04-09'),
     title: 'Wildfire in forests of Nepal',
     description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using \'Content here, content here\', making it look like readable English.',
-    bgColor: '#7d6fff',
+    bgColor: '#07ab99',
   },
 ];
 

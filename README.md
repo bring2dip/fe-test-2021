@@ -12,7 +12,6 @@
 `npm run lint:style`
 
 ## Demo URL
-TODO
-Open [http://localhost:3000](http://localhost:3000)
+Open [https://bring2dip.github.io/fe-test-2021/](https://bring2dip.github.io/fe-test-2021/)
 
 
