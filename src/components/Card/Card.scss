@@ -1,0 +1,23 @@
+
+.card {
+    border: 0;
+    color: #fff;
+    min-height: 400px;
+}
+  
+.card-date {
+    color: #ddd;
+}
+  
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-between;
+}
+  
+.btn-ghost {
+    color: #fff;
+    border: 1px solid #fff;
+}
+  
