@@ -1,5 +1,5 @@
 # FE Test Demo Repo
-[![Deployment](https://github.com/bring2dip/fe-test-2021/actions/workflows/deploy.yml/badge.svg)](https://github.com/bring2dip/fe-test-2021/actions/workflows/deploy.yml)
+[![Deployment](https://github.com/bring2dip/fe-test-2021/actions/workflows/deploy.yml/badge.svg?branch=master)](https://github.com/bring2dip/fe-test-2021/actions/workflows/deploy.yml)
 
 ## Dev Running
 `npm run start`
