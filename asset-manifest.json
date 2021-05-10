@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/fe-test-2021/static/css/main.4eb94270.chunk.css",
-    "main.js": "/fe-test-2021/static/js/main.c6ee5761.chunk.js",
-    "main.js.map": "/fe-test-2021/static/js/main.c6ee5761.chunk.js.map",
+    "main.css": "/fe-test-2021/static/css/main.d54f35bd.chunk.css",
+    "main.js": "/fe-test-2021/static/js/main.0405cbb2.chunk.js",
+    "main.js.map": "/fe-test-2021/static/js/main.0405cbb2.chunk.js.map",
     "runtime-main.js": "/fe-test-2021/static/js/runtime-main.83347954.js",
     "runtime-main.js.map": "/fe-test-2021/static/js/runtime-main.83347954.js.map",
     "static/js/2.000821c1.chunk.js": "/fe-test-2021/static/js/2.000821c1.chunk.js",
     "static/js/2.000821c1.chunk.js.map": "/fe-test-2021/static/js/2.000821c1.chunk.js.map",
     "index.html": "/fe-test-2021/index.html",
-    "static/css/main.4eb94270.chunk.css.map": "/fe-test-2021/static/css/main.4eb94270.chunk.css.map",
+    "static/css/main.d54f35bd.chunk.css.map": "/fe-test-2021/static/css/main.d54f35bd.chunk.css.map",
     "static/js/2.000821c1.chunk.js.LICENSE.txt": "/fe-test-2021/static/js/2.000821c1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.83347954.js",
     "static/js/2.000821c1.chunk.js",
-    "static/css/main.4eb94270.chunk.css",
-    "static/js/main.c6ee5761.chunk.js"
+    "static/css/main.d54f35bd.chunk.css",
+    "static/js/main.0405cbb2.chunk.js"
   ]
 }
