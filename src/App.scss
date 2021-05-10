@@ -1,16 +1,17 @@
+@import '~bootstrap/scss/bootstrap-utilities';
 
 .heading {
-  color: #f20658;
-  margin-bottom: 30px;
+  color: $pink-600;
+  margin-bottom: map-get($spacers, 3);
 }
 
 .subheading {
-  margin-bottom: 40px;
+  margin-bottom: map-get($spacers, 5);
 }
 
 .btn-ghost-pink {
-  border: 1px solid #d62976;
-  color: #d62976;
+  border: 1px solid $pink-400;
+  color: $pink-400;
 }
 
 .more-container {

@@ -19,7 +19,7 @@ export default function Card({
         <div className="card-body">
           <div>
             <h6 className="card-date">{dateToYMD(date)}</h6>
-            <h2 className="card-title">{title}</h2>
+            <h2 className="card-title mb-4">{title}</h2>
             <p className="card-text">{description}</p>
           </div>
           <div>

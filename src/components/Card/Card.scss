@@ -1,12 +1,14 @@
 
+@import '~bootstrap/scss/bootstrap-utilities';
+
 .card {
     border: 0;
-    color: #fff;
+    color: $white;
     min-height: 400px;
 }
   
 .card-date {
-    color: #ddd;
+    color: $gray-300;
 }
   
 .card-body {
@@ -15,9 +17,9 @@
     align-self: flex-start;
     justify-content: space-between;
 }
-  
+ 
 .btn-ghost {
-    color: #fff;
-    border: 1px solid #fff;
+    color: $white;
+    border: 1px solid $white;
 }
   

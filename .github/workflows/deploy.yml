@@ -21,6 +21,8 @@ jobs:
       run: npm run lint:js
     - name: Style Lint
       run: npm run lint:style
+    - name: Test
+      run: npm run test
     - name: Build page
       run: npm run build
     - name: Deploy to gh-pages

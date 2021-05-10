@@ -1,7 +1,21 @@
-@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/functions';
 
-body {  
-  background-color: #efefef;
-  margin: 0;
-  margin: 20px 0;
+// Your variable overrides
+$body-bg: #efefef;
+$body-color: #444;
+$font-family-base: 'Verdana';
+$font-size-base: 0.8rem;
+
+@import '~bootstrap/scss/bootstrap-utilities';
+
+@import '~bootstrap/scss/root';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/type';
+@import '~bootstrap/scss/containers';
+@import '~bootstrap/scss/grid';
+@import '~bootstrap/scss/card';
+@import '~bootstrap/scss/buttons';
+
+body {
+  margin: map-get($spacers, 3) 0;
 }
