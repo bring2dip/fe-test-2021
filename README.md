@@ -16,6 +16,10 @@
 
 `npm run build`
 
+## Testing
+
+`npm run test`
+
 ## Deployment
 
 `npm run deploy`

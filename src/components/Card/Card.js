@@ -14,7 +14,7 @@ export default function Card({
   date, title, description, bgColor,
 }) {
   return (
-    <div className="col">
+    <div data-testid="card" className="col">
       <div className="card mb-4 rounded-0" style={{ backgroundColor: bgColor }}>
         <div className="card-body">
           <div>

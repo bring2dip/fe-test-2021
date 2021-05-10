@@ -83,6 +83,7 @@ function App() {
       <div className="more-container">
         <button
           type="button"
+          data-testid="loadMoreButton"
           onClick={() => {
             if (numOfArticles === 3) {
               setNumOfArticles(6);

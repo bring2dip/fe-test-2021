@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
 test('Renders Related Articles heading', () => {
@@ -8,6 +8,24 @@ test('Renders Related Articles heading', () => {
   expect(headingElement).toBeInTheDocument();
 });
 
-test.todo('Renders 3 cards by default');
+test('Renders 3 cards by default', () => {
+  render(<App />);
+  const cards = screen.queryAllByTestId('card');
+  expect(cards).toHaveLength(3);
+});
 
-test.todo('Renders 6 cards when read more is clicked');
+test('Renders 6 cards when read more is clicked', () => {
+  render(<App />);
+  fireEvent.click(screen.getByTestId('loadMoreButton'));
+
+  const cards = screen.queryAllByTestId('card');
+  expect(cards).toHaveLength(6);
+});
+
+test('Renders back 3 cards when read less is clicked', () => {
+  render(<App />);
+  fireEvent.click(screen.getByTestId('loadMoreButton'));
+  fireEvent.click(screen.getByTestId('loadMoreButton'));
+  const cards = screen.queryAllByTestId('card');
+  expect(cards).toHaveLength(3);
+});
