@@ -4,9 +4,9 @@
 ## About
 This repo is initiated from CRA(`create-react-app`). It uses Airbnb style guide for linting javascript and standard Sass guidelines for linting styles.
 It uses `@testing-library/react` for components testing. The source code resides inside `src` directory and all the common components resides in `src/components`.
-The entry point of the app is `src/index.js`. It uses bootstrap for styling. Only the required bootstrap scss files are imported. Default variables of bootstrap are overriden in `src/index.scss`;
+The entry point of the app is `src/index.js`. It uses bootstrap for styling. Only the required bootstrap scss files are imported. Default variables of bootstrap are overriden in `src/index.scss`.
 
-It uses github actions for deploying to github pages. Everytime changes is pushed to master, the action lints, builds, tests and then finally deploy to github pages.
+It uses github actions for deploying to github pages. Everytime changes is pushed to master, the action lints, builds, tests and then finally deploys to github pages.
 
 ## Dev Running
 `npm run start`
